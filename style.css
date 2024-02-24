@@ -1,0 +1,375 @@
+/* GENERAL */
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: #f8f9fa !important;
+}
+.clear
+{
+   clear:both;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold !important;
+}
+h1
+{
+    font-size: 25px;
+}
+img
+{
+    max-width: 40%;
+    height: auto;
+}
+ul,ol
+{
+    list-style:none;
+}
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading 
+{
+    text-align: center;
+    padding-bottom: 40px;        
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+.red-divider
+{
+    width:100px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 0 auto;
+}
+
+
+/* navbar */
+.navbar
+{
+    background: #17a2b8 !important;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #fff !important;
+    background-color: #d82c2e !important;
+    border-radius:8px;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+
+/* ABOUT */
+.pb50 {
+    padding-bottom: 50px !important;
+}
+.pt50 {
+    padding-top: 50px   !important;
+}
+/*text*/
+h2 {
+    font-size: 30px !important;
+    letter-spacing: -0.2px;
+    
+} 
+h4 {
+    font-size: 18px !important;
+    font-family: "Montserrat", sans-serif;
+    color: #252525;
+    font-weight: 700 !important;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 0;
+    letter-spacing: -0.2px;
+    line-height: 1.3;
+}
+.lead {
+    font-weight: 400 !important;
+    color: #888888;
+}
+a:hover{
+    text-decoration: none !important;
+    color: #777 !important;
+}
+.tritary-font {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.font700 {
+    font-weight: 700;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*Images */
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 568px) {
+    .text-center {
+        margin: 0 auto;
+    }
+}
+.img-only {
+    max-width: 175px !important;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 10%);
+}
+.mb20 {
+    margin-bottom:20px !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.button
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #17a2b8;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    z-index:0;
+}
+.button:hover
+{
+    background:#d82c2e;
+    color: white !important;
+    text-decoration: none;
+    border-radius:8px;
+    z-index:0;
+}
+
+/*SECTION SKILLS*/
+.container_lev {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+} 
+.container_sublev {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.item_lev {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.level {
+    height: 15px;
+    width: 300px;
+    background-color:rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.level_1 {
+    height: 15px;
+    width: 50%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_2 {
+    height: 15px;
+    width: 15%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_3 {
+    height: 15px;
+    width: 30%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_4 {
+    height: 15px;
+    width: 15%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_5 {
+    height: 15px;
+    width: 80%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_6 {
+    height: 15px;
+    width: 50%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_7 {
+    height: 15px;
+    width: 60%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.level_8 {
+    height: 15px;
+    width: 40%;
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+.sec_por {
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sec_por_2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 38px 0px 0px 0px;
+}
+
+.level_exp {
+    font-size: 14px;
+    width: 300px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 20px;
+}
+/*EDUCATION*/
+#education .heading h2
+{
+    color: #d82c2e;
+}
+.education-block
+{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block .glyphicon
+{
+    font-size: 40px;
+}
+.education-block h3
+{
+     color: #d82c2e;
+}
+.education-block h4
+{
+   margin-bottom: 20px;
+}
+.education-block p
+{
+  font-weight: bold;
+}
+.education-block .red-divider
+{
+    margin-bottom: 20px;
+}
+
+/*PORTFOLIO*/
+#portfolio .heading h2
+{
+    color: #d82c2e;
+    margin-bottom: 40px;
+}
+#portfolio .thumbnail img
+{
+    width:100%;
+    height:100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#portfolio .thumbnail img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+/*FOOTER*/
+footer
+{    
+    background:#333;
+    padding: 20px 0 40px;
+}
+footer .glyphicon
+{
+    font-size: 25px;
+    margin: 20px;
+    color:#d82c2e;
+    height:30px;
+}
+footer .glyphicon:hover
+{
+    font-size: 30px;
+}
+footer h5
+{
+    color:#fff;
+    font-weight: normal;
+}
