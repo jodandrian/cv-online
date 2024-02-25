@@ -360,7 +360,7 @@ footer
 footer .glyphicon
 {
     font-size: 25px;
-    margin: 20px;
+    margin: 15px;
     color:#d82c2e;
     height:30px;
 }
@@ -372,4 +372,22 @@ footer h5
 {
     color:#fff;
     font-weight: normal;
+}
+.footer-social {
+   display: flex;
+   justify-content: center;
+}
+.footer-social-circle {
+   height: 50px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background: #333;
+   margin: 0 5px 0 5px;
+}
+.footer-social-circle i {
+    color: #fff;
+    font-size: 30px;
 }
